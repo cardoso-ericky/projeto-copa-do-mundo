@@ -1,0 +1,17 @@
+{
+  "name": "projeto-copa-3d-main",
+  "version": "1.0.0",
+  "description": "- No botão Code, clique em \"Download ZIP\"\r - No computador, extraia o projeto do arquivo .zip baixado\r - Abra a pasta do projeto extraída no VSCode (abra o programa, clique em abrir pasta, escolha a pasta extraída)\r - Na pasta do projeto, no VSCode, abra o terminal e digite o seguinte comando:<br/><code><i> npm init -y </i></code>\r - Isso criará um arquivo, package.json, no seu projeto\r - Abra este arquivo, coloque seu nome no atributo \"author\" e altere (ou adicione, caso não tenha) o atributo \"type\" para \"type\": \"module\" (lembre de adicionar uma vírgula ao final da linha, caso ela não seja a última antes do fechamento das chaves {} )\r - Voltando para o terminal, digite o comando: <br/><code><i> npm install express </i></code>\r - Rode a aplicação usando: <br/><code><i> node server.js </i></code>\r - Abra o navegador de sua preferência e, na barra de endereços, digite <br/><code><i> http://localhost:3019 </i></code>\r - Caso algum erro ocorra em alguma etapa do processo, você pode pedir ajuda ao professor\r - Lembre de adicionar a funcionalidade para acessar os Grupos do mesmo modo que as seleções",
+  "main": "baseReader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Ericky",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

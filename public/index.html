@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copa do Mundo 2026</title>
+    <link rel="shortcut icon" href="./imagens/logo-fifa.jpg" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kite+One&display=swap" rel="stylesheet">
+    <style type="text/tailwindcss">
+        @theme {
+            --color-shockpink: #FF3366;
+            --color-shockpink-light: #FF336633;
+            --color-neongreen: #00FF66;
+            --color-neongreen-light: #00FF6611;
+            --color-nightblue: #0D0826;
+            --color-icewhite: #F4F4F9;
+
+            --font-kite: 'Kite One', sans-serif;
+        }
+    </style>
+    <script type="module" src="./scripts/index.js"></script>
+</head>
+<body class="flex flex-col w-screen h-screen font-kite text-nightblue">
+    <header class="flex flex-row justify-between items-center bg-nightblue px-10 py-4 text-icewhite">
+        <a href="index.html" class="flex flex-row items-center gap-1 w-3xs">
+            <img class="size-16" src="./imagens/ball_world_cup_26.png" alt="Logo da Copa do Mundo FIFA 2026" />
+            <h1 class="text-shadow-xs hover:text-shadow-neongreen font-bold hover:text-shockpink text-xl text-center">Copa do Mundo 3D 2026</h1>
+        </a>
+        <nav class="flex flex-row items-center gap-5 font-bold text-xl">
+            <a class="block text-shadow-xs hover:text-shadow-neongreen p-1 hover:text-shockpink" href="index.html">Home</a>
+            <button type="button" id="btnSelecoes" class="block text-shadow-xs hover:text-shadow-neongreen p-2 hover:text-shockpink cursor-pointer">Seleções</button>
+            <button type="button" id="btnGrupos" class="block text-shadow-xs hover:text-shadow-neongreen p-2 hover:text-shockpink cursor-pointer">Grupos</button>
+        </nav>
+    </header>
+    <main class="p-8 grow" id="conteudo">
+        <section class="shadow-nightblue shadow-sm mx-auto pb-2 max-w-6xl">
+            <h2 class="bg-shockpink-light text-shadow-sm px-2 py-2 font-bold text-xl text-center">Sobre a Copa de 2026</h2>
+            <p class="m-6 text-base">A Copa do Mundo FIFA 2026 será a primeira edição com 48 seleções participantes. O torneio será realizado em três países: Estados Unidos, Canadá e México.</p>
+            <div class="block bg-neongreen-light mx-auto my-8 p-4 border-neongreen border-l-5 w-4/5">
+                <p class=""><strong>Novidade:</strong> Pela primeira vez, três países sediarão conjuntamente uma Copa do Mundo.</p>
+            </div>
+        </section>
+        <section class="shadow-nightblue shadow-sm mx-auto my-8 pb-2 max-w-6xl">
+            <h2 class="bg-shockpink-light text-shadow-sm px-2 py-2 font-bold text-xl text-center">Países-Sede</h2>
+            <ul class="px-10 py-8 w-4/5 text-base list-disc list-outside">
+                <li class="relative leading-10">
+                    <span class="inline-block top-2 relative bg-[url('./imagens/mex.svg')] bg-contain bg-no-repeat bg-center size-7"></span> México
+                </li>
+                <li class="relative leading-10">
+                    <span class="inline-block top-2 relative bg-[url('./imagens/usa.svg')] bg-contain bg-no-repeat bg-center size-7"></span> Estados Unidos
+                </li>
+                <li class="relative leading-10">
+                    <span class="inline-block top-2 relative bg-[url('./imagens/can.svg')] bg-contain bg-no-repeat bg-center size-7"></span> Canadá
+                </li>
+            </ul>
+        </section>
+        <section class="shadow-nightblue shadow-sm mx-auto my-8 pb-2 max-w-6xl">
+            <h2 class="bg-shockpink-light text-shadow-sm px-2 py-2 font-bold text-xl text-center">Curiosidades</h2>
+            <ul class="px-16 py-8 w-4/5 text-base list-disc">
+                <li class="leading-8">48 seleções disputarão o torneio.</li>
+                <li class="leading-8">Será a maior Copa do Mundo da história.</li>
+                <li class="leading-8">O México será o primeiro país a sediar três Copas do Mundo.</li>
+                <li class="leading-8">Mais de 100 partidas serão realizadas durante a competição.</li>
+            </ul>
+        </section>
+    </main>
+    <footer class="flex flex-row justify-center items-center gap-2 bg-nightblue py-4 text-icewhite">
+        <span class="font-bold text-sm">&#129349; &#9917; &#127939; Copa do Mundo 2026</span>
+        <span class="block bg-[url('./imagens/mex.svg')] bg-contain bg-no-repeat bg-center size-6"></span>
+        <span class="block bg-[url('./imagens/usa.svg')] bg-contain bg-no-repeat bg-center size-6"></span>
+        <span class="block bg-[url('./imagens/can.svg')] bg-contain bg-no-repeat bg-center size-6"></span>
+    </footer>
+</body>
+</html>
