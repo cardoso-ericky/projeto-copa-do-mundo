@@ -25,14 +25,14 @@
         "titulos": [1998, 2018]
     },
     {
+        "nome": "Espanha",
+        "sigla": "ESP",
+        "titulos": [2010, 2026]
+    },
+    {
         "nome": "Inglaterra",
         "sigla": "ENG",
         "titulos": [1966]
-    },
-    {
-        "nome": "Espanha",
-        "sigla": "ESP",
-        "titulos": [2010]
     },
     {
         "nome": "Portugal",
